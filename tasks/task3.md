@@ -4,13 +4,13 @@ https://github.com/udacity/asteroids 에 들어가 해당 리포지토리를 로
 
 ## 버그를 유발한 커밋 찾기
 
-asteroids를 실행하면 우주선과 소행성이 나타납니다. 키보드에서 ←와 →를 누르면 우주선이 가리키는 방향이 바뀌고, ↑를 누르면 우주선이 전진합니다. 스페이스 바를 누르면 로켓이 발사되죠. 
+asteroids를 실행하면 우주선과 소행성이 나타납니다. 키보드에서 ←와 →를 누르면 우주선이 가리키는 방향이 바뀌고, ↑를 누르면 우주선이 전진합니다. 스페이스 바를 누르면 로켓이 발사되죠.
 
 index.html 파일을 열고 게임을 직접 실행해 봅시다.
 
 ![asteroids-intro](../resources/asteroids-intro.png)
 
-엇! 그런데 에러가 있네요. 스페이스 바에서 손을 떼지 않고 계속 눌러봅시다. 쉼 없이 총알이 발사됩니다. 
+엇! 그런데 에러가 있네요. 스페이스 바에서 손을 떼지 않고 계속 눌러봅시다. 쉼 없이 총알이 발사됩니다.
 
 ![asteroids-bug](../resources/asteroids-bug.png)
 
@@ -20,7 +20,8 @@ index.html 파일을 열고 게임을 직접 실행해 봅시다.
 
 ### 정답
 
-(여기에 버그를 유발한 커밋의 id와 어떻게 하면 버그를 수정할 수 있는지 적어주세요.)
+(auther id가 dmcinnes이며, 커밋 메세지는 a couple missing ends with the ipad version인 커밋때문에 버그가 생겼습니다.
+  해당 커밋에서 this.delayBeforeBullet = 10의 값을 삭제했는데, 이를 복원시키면 총알이 일정한 간격을 유지하며 발사됩니다.)
 
 ### 힌트
 
